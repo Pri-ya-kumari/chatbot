@@ -1,0 +1,78 @@
+.example-card {
+    width: 900px;
+    height: 500px;
+}
+
+.title {
+    margin-top: -10px;
+}
+
+.header {
+    background-color: lightgrey;
+}
+
+.subtitle {
+    color: green;
+    margin-top: -6px;
+}
+
+.content {
+    height: 390px;
+} 
+.over{
+    overflow-y: auto;
+}
+.example-form {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 440px;
+    width: 900px;
+    background-color: white;
+}
+
+.example-full-width {
+    background-color: white;
+    width: 100%;
+}
+.message{
+    height: 20px;
+    width: 200px;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-left: 620px ;
+    margin-top: 10px;
+    background-color: aliceblue;
+    border-radius: 50px;
+    position: relative;
+}
+.message.to{
+    background-color: #2095FE;
+    color: #fff;
+    margin-left: 10px;
+    text-align: right;
+}
+.message.from{
+    background-color: #E5E4E9;
+    color: #363636;
+    margin-left: 520px;
+    width: 300px;
+}
+.message.to + .message.to,
+.message.from + .message.from{
+    margin-top: -20px;
+}
+.btn{
+    cursor: pointer;
+    border: 1px solid white;
+    margin-left: 800px;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    margin-top: 443px;
+    color: white;
+    font-size: 22px;
+    background-color: #0B6623;
+}
+.icons{
+    position: absolute;
+}

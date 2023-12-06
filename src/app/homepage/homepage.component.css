@@ -1,0 +1,13 @@
+.body{
+    margin-top: 50px;
+    margin-left: 240px;
+    overflow: hidden;
+}
+
+.imgs{
+    margin-left: -30px;
+    width:400px;
+    height: 350px;
+    margin-top: -690px;
+    position:inherit;
+}
